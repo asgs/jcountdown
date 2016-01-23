@@ -9,7 +9,7 @@ import javax.enterprise.inject.Produces;
 
 public class PropertiesProducer {
     
-    private static final String PROPERTIES_FILE = "properties/dev/mongo.properties"; // Change depending on environment
+    private static final String PROPERTIES_FILE = "mongo.properties";
     
     private Properties properties = new Properties();
     
